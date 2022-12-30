@@ -1,10 +1,7 @@
-﻿using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using System;
 using System.ComponentModel.Design;
-using System.Globalization;
-using System.Threading;
-using System.Threading.Tasks;
 using Task = System.Threading.Tasks.Task;
 
 namespace HelloWorld
@@ -89,8 +86,8 @@ namespace HelloWorld
     private void Execute(object sender, EventArgs e)
     {
       ThreadHelper.ThrowIfNotOnUIThread();
-      string message = "Hello World!";
-      string title = "Command1";
+      string message = "Hello World 👾👾👾";
+      string title = "Command 😜";
 
       // Show a message box to prove we were here
       VsShellUtilities.ShowMessageBox(
